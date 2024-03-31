@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/joke", methods = ["GET"])
 def givejoke():
-    return "knock koncok.. whatever fk"
+    return "knock knock.. who is there!"
 
 @app.route("/", methods = ["GET"])
 def status():
